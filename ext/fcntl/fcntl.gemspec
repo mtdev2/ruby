@@ -20,6 +20,6 @@ Gem::Specification.new do |spec|
   spec.required_ruby_version = ">= 2.3.0"
 
   spec.add_development_dependency "bundler", "~> 1.14"
-  spec.add_development_dependency "rake", "~> 12"
+  spec.add_development_dependency "rake", "~> 13"
   spec.add_development_dependency "rake-compiler"
 end
