@@ -63,7 +63,7 @@ DESCRIPTION
       "lib/psych.jar"
     ]
     s.requirements = "jar org.yaml:snakeyaml, #{Psych::DEFAULT_SNAKEYAML_VERSION}"
-    s.add_dependency 'jar-dependencies', '>= 0.1.7'
+    s.add_dependency 'jar-dependencies', '0.4.1'
   else
     s.extensions = ["ext/psych/extconf.rb"]
   end
