@@ -34,6 +34,6 @@ Gem::Specification.new do |s|
 
   s.add_development_dependency "rake", ">= 12.3.3"
   s.add_development_dependency "rake-compiler", ">= 0.9"
-  s.add_development_dependency "minitest", "<= 5.14.1"
+  s.add_development_dependency "minitest", "<= 5.14.4"
   s.add_development_dependency "pry"
 end
