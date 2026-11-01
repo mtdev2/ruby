@@ -6893,7 +6893,7 @@ rb_big_aref2(VALUE x, VALUE beg, VALUE len)
         v = bignew(copy_end - copy_begin, 1);
         vds = BDIGITS(v);
         MEMCPY(vds, xds + copy_begin, BDIGIT, copy_end - copy_begin);
-        negative_add_one = (vds[0] & ((1 << shift_bits) - 1)) == 0;
+        negative_add_one = (vds[0] & (((BDIGIT)1 << shift_bits) - 1)) == 0;
         v = bignorm(v);
         if (shift_bits) v = rb_int_rshift(v, SIZET2NUM(shift_bits));
     }
