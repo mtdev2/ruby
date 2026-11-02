@@ -1506,11 +1506,13 @@ match_byteoffset(VALUE match, VALUE n)
 
 
 /*
+ *  :markup: markdown
+ *
  *  call-seq:
  *    bytebegin(n) -> integer
  *    bytebegin(name) -> integer
  *
- *  :include: doc/matchdata/bytebegin.rdoc
+ *  :include: doc/matchdata/bytebegin.md
  *
  */
 
